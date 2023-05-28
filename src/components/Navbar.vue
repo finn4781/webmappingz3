@@ -64,9 +64,7 @@ export default {
             </a>
           </li>
         </ul>
-        <!-- <div class="d-flex">
-          <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#filterModal">Filter</button>
-        </div> -->
+       
 
       </div>
     </div>

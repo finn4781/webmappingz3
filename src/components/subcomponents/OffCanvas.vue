@@ -33,15 +33,10 @@ export default {
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <!-- <img src="https://picsum.photos/300/300" class="d-block w-100" alt="..."> -->
+
           <img :src="`images/${image}`" class="d-block w-100" alt="...">
         </div>
-        <!-- <div class="carousel-item">
-          <img src="../../assets/images/photo2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../../assets/images/photo3.jpg" class="d-block w-100" alt="...">
-        </div> -->
+     
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -60,9 +55,7 @@ export default {
       {{ description}}
     </div>
     <div class="d-flex justify-content-center my-3">
-      <!-- <button class="btn btn-primary ">
-        ipusm ammet!
-      </button> -->
+   
       <a type="button" class="btn text-white" style="background-color:green" href="https://wa.me/19999999999?text=I'm%20interested%20in%20your%20houser%20for%20sale" target="_blank">WhatsApp</a>
     </div>
   </div>

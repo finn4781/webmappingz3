@@ -32,10 +32,6 @@ export default {
           Lipsum dolor sit amet consectetur adipisicing elit. Doloribus asperiores alias consectetur saepe! Dolor quam voluptates, culpa quibusdam vel dolorem
         </p>
       </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
     </div>
   </div>
 </div>

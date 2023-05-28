@@ -3,7 +3,7 @@
 export default {
   data() {
     return {
-      // range: ["50000 to 70000", "70000 to 10000", "greater than 100000"],
+  
       colors: ['red', 'blue', 'yellow'], 
       range: [
         {id: "price_range_none", from: 50000, to: 70000, text: "Select price range"}, 

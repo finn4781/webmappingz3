@@ -1,5 +1,4 @@
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import mapboxgl from 'mapbox-gl'; 
 import Navbar from "./components/Navbar.vue"
 import markers from "./assets/four.json"
@@ -19,8 +18,6 @@ export default {
   },
   methods: {
     showInfoOnOffcanvas(index) {
-      // console.log('>>> offcanvas button');
-      // console.log(markers.features[index]);
       this.markerTitle = markers.features[index].properties.title;
       this.markerDescription = markers.features[index].properties.description;
       this.markerPrice = markers.features[index].properties.price;
